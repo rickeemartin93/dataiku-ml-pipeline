@@ -1,0 +1,126 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": true,
+    "exportProjectResources": true,
+    "exportLabelingTasks": true,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": true,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "exportSavedModelsRequiredVersions": false,
+    "exportNotebooksWithOutputs": true,
+    "exportForNewBranch": false,
+    "exportKnowledgeBanks": true,
+    "exportEditableDatasets": true,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedKnowledgeBanks": [],
+    "includedLabelingTasks": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "booking_test",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 1002249
+      },
+      {
+        "name": "booking_test_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 155833
+      },
+      {
+        "name": "booking_test_prepared_scored",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 386383
+      },
+      {
+        "name": "booking_train",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 2338576
+      },
+      {
+        "name": "booking_train_prepared2",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 363923
+      }
+    ],
+    "includedSavedModels": [
+      {
+        "id": "jHHOoiMI",
+        "name": "Predict booking_status (binary)",
+        "size": 15840087
+      }
+    ],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [
+      {
+        "id": "2s8iSgnt",
+        "name": "metrics",
+        "size": 478115
+      }
+    ],
+    "includedCodeStudios": [],
+    "includedKnowledgeBanks": [],
+    "includedLabelingTasks": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "ML_EXAM_BOOKING",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "13.4.1",
+  "generatedWithDSSConfVersion": "13400",
+  "foreignObjects": [],
+  "exportedWithPlugins": [
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "code-studio-blocks",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    }
+  ],
+  "exportedWithCodeStudioTemplates": [],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [],
+  "allowedMissingCodeEnvs": [],
+  "hasPartitionedDataset": false
+}
