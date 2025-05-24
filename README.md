@@ -14,6 +14,17 @@ A full machine learning pipeline for hotel booking predictions built and exporte
 - Python
 - Scikit-learn
 - Pandas / NumPy
+- ## 📁 Structure
+/recipes/
+  - preprocessing.shaker
+  - model_train.json
+/data/
+  - booking_train.csv
+  - booking_test.csv
+/model/
+  - clf.pkl
+  - dss_pipeline_model.gz
+
 
 ## 🧠 Objective
 To classify or predict the outcome of a hotel booking based on input features.
